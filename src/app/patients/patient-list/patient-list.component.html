@@ -1,0 +1,22 @@
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Date of Birth</th>
+      <th>Gender</th>
+      <th>Service</th>
+      <th>Comments</th>
+      <th>Visits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let patient of patients" [appHighlightMostVisits]="patient.visits" [mostVisitsThreshold]="someThresholdValue">
+      <td>{{ patient.name }}</td>
+      <td>{{ formatDateOfBirth(patient.dateOfBirth) }}</td> 
+      <td>{{ patient.gender }}</td>
+      <td>{{ patient.service }}</td>
+      <td>{{ patient.comments }}</td>
+      <td>{{ patient.visits }}</td>
+    </tr>
+  </tbody>
+</table>

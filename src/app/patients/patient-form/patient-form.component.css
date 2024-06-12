@@ -1,0 +1,16 @@
+form {
+    margin-bottom: 20px;
+     margin-left: 32%;
+    margin-right: auto; 
+}
+
+mat-form-field {
+    width: 30rem;
+    border: 2px solid  rgb(2, 192, 81);
+}
+button {
+    border-radius: 10px; 
+    border: 2px solid #041220; 
+    padding: 10px; 
+    
+}

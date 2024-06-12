@@ -1,0 +1,15 @@
+table, th, td {
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: grey;
+
+
+}
+td {
+    background-color: aquamarine;
+}
